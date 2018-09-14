@@ -1,1 +1,1 @@
-web: gunicorn --chdir musicListenerApp wsgi:application --log-file -
+web: gunicorn --chdir musicListenerApp wsgi.application --log-file -
