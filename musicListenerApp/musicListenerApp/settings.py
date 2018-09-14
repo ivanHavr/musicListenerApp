@@ -25,7 +25,7 @@ SECRET_KEY = '-)3aju6sv_kio#d)-l@__pg&s16%_6kynx^!%w&8f)^#@z7rra'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://djangomusicapp.herokuapp.com/', 'https://djangomusicapp.herokuapp.com/login']
 
 
 # Application definition
@@ -82,13 +82,12 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '303290789845-tbgcu2msigcljdru0s4bdudakcr3e3gp.apps.googleusercontent.com'  #Paste CLient Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'I1w4-LT67I1WFuZwK27xkgh8' #Paste Secret Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'I1w4-LT67I1WFuZwK27xkgh8'  #Paste Secret Key
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
 
 WSGI_APPLICATION = 'musicListenerApp.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
