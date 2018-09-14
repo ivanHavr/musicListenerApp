@@ -12,7 +12,7 @@ def index(request):
     # song.save()
     # songs_on_playlist = add_to_playlist(playlist, song)
     # songs_on_playlist.save()
-    return render(request, 'mainPage.html')
+    return render(request, 'login.html')
 
 
 def home(request):
