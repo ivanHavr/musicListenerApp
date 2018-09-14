@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['https://djangomusicapp.herokuapp.com/', 'https://djangomusicap
 # Application definition
 
 INSTALLED_APPS = [
-    'mainApp',
+    'mainApp.apps.MainappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
