@@ -23,7 +23,7 @@ SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 SECRET_KEY = '-)3aju6sv_kio#d)-l@__pg&s16%_6kynx^!%w&8f)^#@z7rra'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['djangomusicapp.herokuapp.com', 'djangomusicapp.herokuapp.com/login', 'localhost']
 
