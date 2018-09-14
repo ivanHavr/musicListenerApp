@@ -1,1 +1,1 @@
-web: gunicorn musicListenerApp.musicListenerApp.wsgi
+web: gunicorn --pythonpath musicListenerApp musicListenerApp.wsgi
